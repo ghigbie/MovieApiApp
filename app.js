@@ -4,8 +4,9 @@ var app = express();
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
+
 app.get("/", function(req, res){
-   res.render("home"); 
+    res.render("home");
 });
 
 app.get("*", function(req, res){
