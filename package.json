@@ -1,0 +1,11 @@
+{
+  "name": "movie-api-app",
+  "version": "1.0.0",
+  "description": "this app uses a movie api to post data to a webpage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Hibie",
+  "license": "ISC"
+}
