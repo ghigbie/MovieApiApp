@@ -13,8 +13,8 @@ app.get("/", function(req, res){
 app.get("/results", function(req, res){
     request("http://www.omdbapi.com/?s=star", function(error, response, body){
         if(!error && response.statusCode == 200){
-            var parseBody = JSON.parse(body);
-            res.send(parseBody);
+            var results = JSON.parse(body);
+            res.send(results);
         }
     });
     
