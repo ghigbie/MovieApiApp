@@ -4,7 +4,7 @@
 
 <ul>
 <% data["Search"].forEach(function(movie){ %>
-    <li>movie</li>
+    <li><%=movie["Title"] + " - " + movie["Year"]%></li>
 <% }); %>
 </ul>
 
